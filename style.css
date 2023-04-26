@@ -1,0 +1,141 @@
+ 
+ul{
+    list-style-type: none;
+    margin-top: 0px;
+    
+   
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.Навігація li {
+    display: inline-block ;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    padding: 0 10px;
+}
+
+
+header {
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Rubik Wet Paint', cursive;   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    background-image: url(https://yt3.googleusercontent.com/h9jlJucA9U_qOYne9C5dpCt3x1ArYcpzd0iPEKmPUHOP0jI21KxUs4wl4XmD6qfPmPSM2-tvixA=s900-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ body::after{
+    background: #191b1b;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .85;
+    position: absolute;
+    transition: all .25s ease;
+    width: 100%;
+    
+ }
+
+.Oleg li:nth-of-type(5) {
+    background-color: rgb(70, 130, 11);
+    padding: 0 10px;
+    line-height: 30px;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.David {
+    width: 1em;
+    vertical-align: middle;
+    
+}
+
+svg{
+    width: 1em;
+    vertical-align: middle;
+}
+
+
+
+.Oleg li:nth-of-type(5):hover {
+    background-color: #326e0ca8;
+    line-height: 30px;
+}
+
+.logo img { 
+    height: 40px;
+    
+    
+}
+
+.Igor {
+ display: flex;
+ height: 100%;
+ align-items: center;
+}
+
+.Oksana {
+    position: relative;
+}
+
+.Oksana::after{
+    background: #ff0000;
+    bottom: -8px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: all .25s ease;
+    width: 100%;
+ }   
+
+ .Oksana:hover::after{
+    transform: scaleX(1)
+}
+
+.text{
+    position: absolute;
+    z-index: 1;
+    font-size: 48px;
+    line-height: 90px;
+    margin: auto;
+    bottom: 15%; 
+    text-align: center;
+
+}
+
+.text-text-text {
+    color: #07dfc6;
+}
+
+.text-text{
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.trg{
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    bottom: 0%;
+    right: 5%;
+}
