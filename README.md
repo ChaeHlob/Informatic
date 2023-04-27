@@ -1,1 +1,0 @@
-# Informatic1.0
